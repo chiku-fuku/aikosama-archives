@@ -1,0 +1,19 @@
+site_name: 皇室・憲法問題 研究アーカイブ
+theme:
+  name: material
+  language: ja  # ここで日本語を指定
+plugins:
+  - search:
+      lang:
+        - en
+        - ja  # 日本語サポートを追加
+nav:
+    - ホーム: index.md
+    - 質問主意書:
+        - 第150号平成十八年: 164-shitsumon-150.md
+        - 第379号平成十八年: 164-shitsumon-379.md
+    - 答弁:
+        - 第150号平成十八年: 164-touben-150.md
+        - 第379号平成十八年: 164-touben-379.md
+markdown_extensions:
+  - nl2br  # 「New Line to BR」の略で、改行をそのまま改行として扱う設定です
